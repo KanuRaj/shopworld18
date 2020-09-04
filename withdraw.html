@@ -157,11 +157,66 @@
                     <span class="text-muted">Actions</span>
                     <br>
                     <span>
-                        <a class="text-primary">View/Edit Bank Details</a>
+                        <a class="text-primary" data-toggle="modal" data-target="#edit-view-bank-details">View/Edit Bank
+                            Details</a>
                     </span>
                 </div>
             </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="edit-view-bank-details" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Edit / View Bank Details</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form class="font-weight-bold">
+                        <div class="modal-body px-4">
+                            <div class="col-12 px-3 px-lg-5">
+                                <div class="md-form form-sm mb-0 mt-3 mt-md-4 mb-md-4">
+                                    <input type="text" id="account_holder" name="account_holder"
+                                        class="form-control pl-2 form-control-sm" value="Manohar Lal Patel">
+                                    <label class="pl-2" for="account_holder">Account Holder's Name</label>
+                                </div>
+                            </div>
+                            <div class="col-12 px-3 px-lg-5">
+                                <div class="md-form form-sm mb-0 mt-3 mt-md-4 mb-md-4">
+                                    <input type="text" id="bank_name" name="bank_name"
+                                        class="form-control pl-2 form-control-sm" value="State Bank Of India">
+                                    <label class="pl-2" for="bank_name">Bank Name</label>
+                                </div>
+                            </div>
+                            <div class="col-12 px-3 px-lg-5">
+                                <div class="md-form form-sm mb-0 mt-3 mt-md-4 mb-md-4">
+                                    <input type="text" id="account_number" name="account_number"
+                                        class="form-control pl-2 form-control-sm" value="IDIB000J028">
+                                    <label class="pl-2" for="account_number">Account Number</label>
+                                </div>
+                            </div>
+                            <div class="col-12 px-3 px-lg-5">
+                                <div class="md-form form-sm mb-0 mt-3 mt-md-4 mb-md-4">
+                                    <input type="text" id="ifsc_code" name="ifsc_code"
+                                        class="form-control pl-2 form-control-sm" value="XXXX0YYYYYY">
+                                    <label class="pl-2" for="ifsc_code">IFSC Code</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger py-2 shadow rounded-pill"
+                                data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary py-2 shadow rounded-pill">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+
         <div class="mb-5 mt-0 col-12 row no-gutters px-0 px-lg-4">
             <div class="col-12 col-md-6 px-3 px-lg-5">
                 <div class="md-form form-sm mb-0 mt-3 mt-md-4 mb-md-4">
