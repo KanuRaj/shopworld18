@@ -165,6 +165,12 @@ html {
 .product-container .card-image img {
   height: 230px !important;
 }
+.product-container table span {
+  font-size: 1.1rem;
+}
+.rounded-border {
+  border-radius: 10px !important;
+}
 @media only screen and (max-width:500px){
 
   .product-container .card-image img {
@@ -175,6 +181,9 @@ html {
   }
   .product-container table td {
     padding: 4px 0 !important;
+  }
+  .product-container table span {
+    font-size: 0.9rem !important;
   }
 
 }
