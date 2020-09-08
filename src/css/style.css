@@ -184,6 +184,15 @@ html {
 .blue-border-dashed {
   border: 3.5px solid #a79637;
 }
+
+/* brands */
+.brands img, .brands .many-more {
+  width: 300px !important;
+  max-height: 150px !important;
+}
+/* brands */
+
+
 @media only screen and (max-width:320px){
   /* about */
   .vision p {
@@ -209,6 +218,13 @@ html {
   .product-container table span {
     font-size: 0.9rem !important;
   }
+
+  /* brands */
+  .brands img, .brands .many-more {
+    width: 180px !important;
+  max-height: 180px !important;
+  }
+  /* brands */
 
 }
 /*  home-page Product */
